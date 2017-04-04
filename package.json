@@ -9,6 +9,7 @@
   "devDependencies": {
     "react-scripts": "0.9.5"
   },
+  "homepage": "https://jirengu-inc.github.io/project-react-1",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
