@@ -1,0 +1,20 @@
+.UserDialog-Wrapper{ 
+  /*全屏*/      position: fixed; top: 0; left: 0; bottom: 0; right: 0; 
+  /*内容居中*/  display: flex; justify-content: center; align-items: center;
+}
+.UserDialog{
+  border: 1px solid;
+  border-radius: 4px;
+  min-width: 20em;
+  background: white;
+  border: 1px solid #aaa;
+  box-shadow: 0 0 1em hsla(0,0%,0%,0.35);
+}
+.UserDialog > nav:first-child{ padding: 1em; }
+.UserDialog > nav:first-child input[type=radio]:not(:first-child){ margin-left: 2em; }
+
+.UserDialog > .panes { padding: 0 1em 1em; }
+
+.UserDialog form>.row{ display: flex; padding: .3em 0; }
+.UserDialog form>.row>label:first-child{ width: 4em; }
+.UserDialog form>.row.actions{ padding-left: 4em; }
