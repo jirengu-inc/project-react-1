@@ -1,6 +1,7 @@
 .UserDialog-Wrapper{ 
   /*全屏*/      position: fixed; top: 0; left: 0; bottom: 0; right: 0; 
   /*内容居中*/  display: flex; justify-content: center; align-items: center;
+  background: hsla(0,0%,0%,0.40);
 }
 .UserDialog{
   border: 1px solid;
