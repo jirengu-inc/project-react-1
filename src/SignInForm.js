@@ -1,3 +1,4 @@
+import React from 'react';
 export default function (props) {
   return (
     <form className="signIn" onSubmit={props.onSubmit}> {/* 登录*/}
