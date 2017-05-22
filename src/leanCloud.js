@@ -35,6 +35,7 @@ export const TodoModel = {
     let acl = new AV.ACL()
     acl.setPublicReadAccess(false) // 注意这里是 false
     acl.setWriteAccess(AV.User.current(), true)
+    acl.setReadAccess(AV.User.current(), true)
 
     todo.setACL(acl);
 
